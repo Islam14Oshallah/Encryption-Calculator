@@ -1,0 +1,71 @@
+:root {
+  /* Primary colors */
+  --light-primary: #4285f4;
+  --light-primary-dark: #3367d6;
+  --light-primary-light: #82b1ff;
+  
+  /* Background colors */
+  --light-background: #ffffff;
+  --light-surface: #f8f9fa;
+  --light-surface-variant: #edf2fa;
+  
+  /* Text colors */
+  --light-text-primary: #202124;
+  --light-text-secondary: #5f6368;
+  --light-text-disabled: #9aa0a6;
+  
+  /* Accent colors */
+  --light-accent: #00c853;
+  --light-error: #de3730;
+  --light-warning: #fbbc04;
+  --light-info: #4285f4;
+  
+  /* Border and divider */
+  --light-border: #dadce0;
+  --light-divider: #e8eaed;
+  
+  /* Shadow */
+  --light-shadow: 0 1px 3px rgba(60, 64, 67, 0.12), 0 1px 2px rgba(60, 64, 67, 0.08);
+}
+
+/* Apply light theme when user prefers light mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary: var(--light-primary);
+    --primary-dark: var(--light-primary-dark);
+    --primary-light: var(--light-primary-light);
+    --background: var(--light-background);
+    --surface: var(--light-surface);
+    --surface-variant: var(--light-surface-variant);
+    --text-primary: var(--light-text-primary);
+    --text-secondary: var(--light-text-secondary);
+    --text-disabled: var(--light-text-disabled);
+    --accent: var(--light-accent);
+    --error: var(--light-error);
+    --warning: var(--light-warning);
+    --info: var(--light-info);
+    --border: var(--light-border);
+    --divider: var(--light-divider);
+    --shadow: var(--light-shadow);
+  }
+}
+
+/* Class-based theme application for explicit light theme use */
+.light-theme {
+  --primary: var(--light-primary);
+  --primary-dark: var(--light-primary-dark);
+  --primary-light: var(--light-primary-light);
+  --background: var(--light-background);
+  --surface: var(--light-surface);
+  --surface-variant: var(--light-surface-variant);
+  --text-primary: var(--light-text-primary);
+  --text-secondary: var(--light-text-secondary);
+  --text-disabled: var(--light-text-disabled);
+  --accent: var(--light-accent);
+  --error: var(--light-error);
+  --warning: var(--light-warning);
+  --info: var(--light-info);
+  --border: var(--light-border);
+  --divider: var(--light-divider);
+  --shadow: var(--light-shadow);
+}

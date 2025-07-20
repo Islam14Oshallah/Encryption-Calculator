@@ -1,0 +1,34 @@
+:root {
+  --background-color: #f0f4f8;
+  --text-color: #2d3748;
+  --primary-color: #3182ce;
+  --secondary-color: #ebf8ff;
+  --border-color: #cbd5e0;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --primary-color: #90caf9;
+  --secondary-color: #1e1e1e;
+  --border-color: #333333;
+}
+
+/* Apply variables to elements */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+/* Add additional element-specific styles here, such as: */
+a {
+  color: var(--primary-color);
+}
+
+button, .button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: 1px solid var(--border-color);
+}
