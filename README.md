@@ -29,4 +29,4 @@
 </ul><ul>
 <li>Real-Time Notifications</li>
 </ul><h2>Contact</h2>
-<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/islam-oshallah"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Islam14Oshallah"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width: 10%;"></a></p>
+<hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/islam-oshallah"><img target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="width: 10%;"></a><span style="margin-right: 30px;"></span></p>
